@@ -1,7 +1,7 @@
 # SpringCloudConsulDiscoveryClientB
 
 Тестовое приложение, использующее в качестве **Service Discovery** сервер [Consul](https://www.consul.io).
-Вызывает посредством **Feign** сервис **spring-cloud-consul-discovery-client-a**, зарегистрированный в **Consul**.
+Вызывает посредством [Feign](https://github.com/OpenFeign/feign) сервис [spring-cloud-consul-discovery-client-a](https://github.com/risbarov/spring-cloud-consul-discovery-client-a), зарегистрированный в **Consul**.
 
 # Consul Service Discovery
 
