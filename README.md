@@ -7,4 +7,4 @@
 
 Для запуска сервера Consul Service Discovery необходимо выполнить:
 
-`./consul agent -server -bootstrap -data-dir=/tmp/consul`
+`./consul agent -server -bootstrap -ui -data-dir=/tmp/consul`
