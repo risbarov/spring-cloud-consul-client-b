@@ -18,7 +18,7 @@ public class DiscoveryClientController {
 
 	private static final Logger LOG = LoggerFactory.getLogger(DiscoveryClientController.class);
 
-	private static final String SERVICE_ID = "spring-cloud-consul-discovery-client-a";
+	private static final String SERVICE_ID = "spring-cloud-consul-client-a";
 
 	@Autowired
 	private DiscoveryClient discoveryClient;

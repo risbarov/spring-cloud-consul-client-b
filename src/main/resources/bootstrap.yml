@@ -1,3 +1,14 @@
 spring:
     application:
-        name: spring-cloud-consul-discovery-client-b
+        name: spring-cloud-consul-client-b
+    cloud:
+        consul:
+            host: localhost
+            port: 8500
+            config:
+                enabled: true
+                format: YAML
+                fail-fast: true
+            discovery:
+                instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+                healthCheckInterval: 15s
